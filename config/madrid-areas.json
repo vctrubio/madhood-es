@@ -1,0 +1,27 @@
+[
+  {
+    "id": "soto-de-la-moraleja",
+    "name": "El Soto de la Moraleja",
+    "district": "Zona residencial · Alcobendas",
+    "kind": "area",
+    "geometryId": "soto-de-la-moraleja",
+    "coordinates": [
+      -3.64183,
+      40.52441
+    ],
+    "source": "https://www.openstreetmap.org/way/28263031",
+    "description": "Contorno residencial de OpenStreetMap; no es un límite administrativo oficial."
+  },
+  {
+    "id": "pozuelo-de-alarcon",
+    "name": "Pozuelo de Alarcón",
+    "district": "Localidad · Pozuelo de Alarcón",
+    "kind": "destination",
+    "coordinates": [
+      -3.814834,
+      40.4346528
+    ],
+    "source": "https://www.openstreetmap.org/node/256455561",
+    "description": "Marcador de localidad; no representa un barrio ni el límite municipal."
+  }
+]

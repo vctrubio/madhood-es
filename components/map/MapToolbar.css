@@ -1,0 +1,128 @@
+.controller {
+  position: absolute;
+  z-index: 4;
+  right: 32px;
+  top: 32px;
+  width: 330px;
+  padding: 18px;
+  background: rgba(251, 250, 245, 0.96);
+  border: 1px solid #d5dbd2;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px #263b2910;
+}
+.controller-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin-bottom: 15px;
+}
+.live-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.controller-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.region-select {
+  flex: 1;
+  min-width: 0;
+}
+.region-select select {
+  width: 100%;
+  height: 36px;
+  font-size: 12px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  border-radius: 0;
+}
+.zoom-controls {
+  display: flex;
+  gap: 2px;
+}
+.zoom-controls button {
+  border: 1px solid var(--line);
+  background: transparent;
+  border-radius: 5px;
+  width: 32px;
+  height: 34px;
+  font-size: 19px;
+}
+.zoom-controls button:hover {
+  background: #ecefe7;
+}
+.layer-controls {
+  display: flex;
+  gap: 5px;
+  margin-top: 16px;
+}
+.layer-controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  background: transparent;
+  border-radius: 5px;
+  font-size: 10px;
+  min-height: 32px;
+  flex: 1;
+}
+.layer-controls button[aria-pressed="true"] {
+  border-color: #b7c2b3;
+  background: #edf1e8;
+}
+.toggle-indicator {
+  width: 5px;
+  height: 5px;
+  border: 1px solid #a8b29f;
+  border-radius: 50%;
+}
+[aria-pressed="true"] > .toggle-indicator {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+@media (max-width: 1000px) {
+  .controller {
+    width: 310px;
+  }
+}
+@media (max-width: 600px) {
+  .controller {
+    top: 95px;
+    left: 16px;
+    right: 16px;
+    width: auto;
+    padding: 12px 14px;
+    border-radius: 10px;
+  }
+  .controller-heading {
+    margin-bottom: 8px;
+    font-size: 8px;
+  }
+  .controller-row {
+    gap: 15px;
+  }
+  .zoom-controls button {
+    width: 36px;
+    height: 36px;
+  }
+  .layer-controls {
+    margin-top: 10px;
+  }
+  .layer-controls button {
+    min-height: 34px;
+    font-size: 11px;
+  }
+}
+.layer-controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,87 @@
+.nature-areas path {
+  stroke-linejoin: round;
+}
+.park-natural,
+.park-regional {
+  fill: #dbe5cd;
+  stroke: #bdccac;
+  stroke-width: 0.45;
+  vector-effect: non-scaling-stroke;
+}
+.park-national {
+  fill: #aac39b;
+  stroke: #7d9c70;
+  stroke-width: 0.7;
+  vector-effect: non-scaling-stroke;
+}
+.water-areas {
+  fill: #91bdcb;
+  stroke: #79aabd;
+  stroke-width: 0.45;
+  vector-effect: non-scaling-stroke;
+}
+.desert-area {
+  fill: #dfc491;
+  stroke: #c6a56a;
+  stroke-width: 0.6;
+  vector-effect: non-scaling-stroke;
+}
+.park-marker {
+  fill: #547444;
+  stroke: var(--paper);
+  stroke-width: 1.5;
+  paint-order: stroke;
+}
+.park-marker text {
+  font-size: 10px;
+  stroke-width: 3px;
+}
+.nature-labels text {
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+.landscape-marker {
+  color: #a58650;
+  text-anchor: middle;
+}
+.landscape-marker path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.25;
+  stroke-linecap: round;
+}
+.landscape-marker text {
+  fill: currentColor;
+  font-size: 9px;
+  letter-spacing: 0.5px;
+}
+.landscape-plain {
+  opacity: 0.8;
+  color: #9c9478;
+}
+.landscape-plain text {
+  font-size: 8px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.water-label {
+  font-size: 9px;
+  font-style: italic;
+  fill: #558897;
+}
+@media (max-width: 600px) {
+  .landscape-plain {
+    display: none;
+  }
+  .landscape-marker text {
+    font-size: 8px;
+  }
+  .park-marker {
+    opacity: 0.8;
+  }
+}
+.landscape-mountain {
+  color: #62785b;
+}

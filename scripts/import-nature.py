@@ -12,7 +12,7 @@ from shapely.ops import transform, unary_union
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = Path('/private/tmp/madhood-tile-cache')
-source_dir = ROOT/'map/sources'
+source_dir = ROOT/'components/map/sources'
 countries = json.loads(gzip.decompress((source_dir/'countries.geojson.gz').read_bytes()))
 spain_feature = next(f for f in countries['features'] if f['properties']['ADM0_A3']=='ESP')
 spain_parts = shape(spain_feature['geometry'])

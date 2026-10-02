@@ -1,0 +1,5 @@
+.madrid-construction { pointer-events: none; }
+.madrid-construction-area { fill: #f5cd35; fill-opacity: .3; stroke: #ac8508; stroke-width: 1.2; stroke-dasharray: 5 3; vector-effect: non-scaling-stroke; }
+.madrid-construction-hatch { stroke: #be940a; stroke-width: 3; stroke-opacity: .24; }
+.madrid-construction-corridor { fill: none; stroke: #f5cd35; stroke-opacity: .55; stroke-linejoin: round; stroke-linecap: round; }
+.madrid-construction-name { fill: #76600c; font-size: 10px; font-weight: 700; paint-order: stroke; stroke: #f4f1e9; stroke-width: 4; stroke-linejoin: round; }

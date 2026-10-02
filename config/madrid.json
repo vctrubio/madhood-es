@@ -1,0 +1,72 @@
+{
+  "title": "Barrios de Madrid",
+  "description": "Selecciona un barrio en el mapa o búscalo por nombre.",
+  "search": "Buscar barrio o distrito",
+  "empty": "No hay barrios que coincidan.",
+  "selection": "Selección",
+  "clear": "Limpiar selección",
+  "none": "Pulsa un barrio para seleccionarlo.",
+  "destination": "Ubicación de referencia, sin límite de barrio.",
+  "scope": "Selección heredada del mapa original. Los nombres editoriales no siempre son unidades estadísticas oficiales.",
+  "presets": [
+    {
+      "id": "centre",
+      "label": "Madrid"
+    },
+    {
+      "id": "ring",
+      "label": "M-40"
+    },
+    {
+      "id": "all",
+      "label": "Todo"
+    }
+  ],
+  "layers": [
+    {
+      "id": "hoods",
+      "label": "Barrios"
+    },
+    {
+      "id": "streets",
+      "label": "Calles"
+    },
+    {
+      "id": "highways",
+      "label": "Rondas"
+    },
+    {
+      "id": "labels",
+      "label": "Nombres"
+    },
+    {
+      "id": "parks",
+      "label": "Parques"
+    },
+    {
+      "id": "stations",
+      "label": "Estaciones"
+    },
+    {
+      "id": "monuments",
+      "label": "Lugares"
+    },
+    {
+      "id": "construction",
+      "label": "Obras"
+    }
+  ],
+  "overview": "MADRID · ATLAS DE BARRIOS",
+  "roads": "Castellana · M-30 · M-40 · A-4",
+  "zoomIn": "Acercar",
+  "zoomOut": "Alejar",
+  "reset": "Centrar Madrid",
+  "streetLabelAnchors": [
+    {
+      "name": "Paseo de la Castellana",
+      "x": 540,
+      "y": 450,
+      "angle": -80
+    }
+  ]
+}

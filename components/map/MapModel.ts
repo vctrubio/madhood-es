@@ -16,11 +16,15 @@ export const INITIAL_STATE: MapState = {
 
 /** Observable map state, independent of React and the DOM. */
 export class MapModel {
-  private state: MapState = INITIAL_STATE;
+  private state: MapState;
+
+  constructor(readonly initialState: MapState = INITIAL_STATE) {
+    this.state = initialState;
+  }
   private listeners = new Set<() => void>();
 
   getSnapshot = (): MapState => this.state;
-  getServerSnapshot = (): MapState => INITIAL_STATE;
+  getServerSnapshot = (): MapState => this.initialState;
 
   subscribe = (listener: () => void) => {
     this.listeners.add(listener);

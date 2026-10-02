@@ -1,0 +1,19 @@
+.madrid-canvas { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+.madrid-canvas:active { cursor: grabbing; }
+.madrid-hood { cursor: pointer; outline: none; }
+.madrid-hood path, .madrid-hood circle { fill: #ded8c9; stroke: #9c9c88; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.madrid-hood:hover path, .madrid-hood:focus-visible path, .madrid-hood:hover circle, .madrid-hood:focus-visible circle { fill: #f3b095; stroke: #b95839; stroke-width: 2; }
+.madrid-hood.selected path, .madrid-hood.selected circle { fill: #ff9977; stroke: #b95839; stroke-width: 2; }
+.madrid-local-streets { fill: none; stroke: #918c7e; stroke-width: .55; vector-effect: non-scaling-stroke; }
+.madrid-important-street { fill: none; stroke: #252923; stroke-width: 1.7; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.madrid-streets, .madrid-highway, .madrid-street-labels, .madrid-hood-labels, .madrid-road-badge { pointer-events: none; }
+.madrid-road-casing { fill: none; stroke: #f4f1e9; stroke-width: 7; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.madrid-road-line { fill: none; stroke: #b95839; stroke-width: 3; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.madrid-highway.outer-ring .madrid-road-line { stroke: #8f624d; }
+.madrid-park { fill: #bdccab; stroke: #789269; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.madrid-hood-labels { fill: #3f4036; font-size: 10px; paint-order: stroke; stroke: #e9e4d8; stroke-width: 3; stroke-linejoin: round; }
+.madrid-street-labels rect { fill: #f4f1e9; stroke: #252923; stroke-width: .6; }
+.madrid-street-labels text { fill: #252923; font-size: 10px; }
+.madrid-road-badge rect { fill: #b95839; stroke: #f4f1e9; stroke-width: 1; }
+.madrid-road-badge text { fill: #f4f1e9; font-size: 10px; font-weight: 700; }
+.madrid-park { pointer-events: none; }

@@ -1,0 +1,198 @@
+.map-experience {
+  position: relative;
+  isolation: isolate;
+  height: 100svh;
+  min-height: 580px;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 52% 40%, #f2f4ee 0%, var(--sea) 72%);
+}
+.map-caption {
+  position: absolute;
+  left: 40px;
+  bottom: 115px;
+  pointer-events: none;
+}
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--accent);
+  font-weight: 700;
+}
+.map-caption h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  letter-spacing: -2px;
+  font-size: clamp(32px, 3.5vw, 55px);
+  line-height: 1.02;
+  margin: 18px 0;
+}
+.map-caption p {
+  font-size: 11px;
+  color: var(--muted);
+}
+.map-compass {
+  position: absolute;
+  right: 47px;
+  bottom: 116px;
+  display: grid;
+  text-align: center;
+  gap: 5px;
+  font-size: 9px;
+}
+.map-compass i {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 100;
+}
+.map-footer {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-top: 1px solid #cbd4c8;
+  padding-top: 17px;
+  font-size: 10px;
+}
+.legend {
+  display: flex;
+  gap: 22px;
+}
+.legend > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.legend-city {
+  width: 6px;
+  height: 6px;
+  background: var(--ink);
+  border-radius: 50%;
+}
+.legend-road {
+  width: 20px;
+  height: 2px;
+  background: var(--accent);
+}
+.map-hint {
+  color: var(--muted);
+  margin: 0;
+}
+.map-footer small {
+  font-size: 9px;
+  color: #6d786e;
+}
+.map-footer a {
+  text-decoration: none;
+}
+.map-footer a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1000px) {
+  .map-caption h1 {
+    font-size: 32px;
+  }
+  .map-caption p {
+    max-width: 140px;
+    line-height: 1.6;
+  }
+  .map-hint {
+    display: none;
+  }
+  .map-caption {
+    bottom: 110px;
+    left: 24px;
+  }
+  .map-footer {
+    left: 24px;
+    right: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .map-experience {
+    min-height: 700px;
+  }
+  .map-caption {
+    bottom: 65px;
+    left: 20px;
+  }
+  .map-caption .eyebrow,
+  .map-caption p {
+    display: none;
+  }
+  .map-caption h1 {
+    font-size: 25px;
+    letter-spacing: -1px;
+    margin: 0;
+  }
+  .map-caption h1 br {
+    display: none;
+  }
+  .map-compass {
+    right: 22px;
+    bottom: 87px;
+  }
+  .map-compass i {
+    font-size: 25px;
+  }
+  .map-footer {
+    left: 20px;
+    right: 20px;
+    bottom: 14px;
+    padding-top: 10px;
+    gap: 5px;
+    flex-wrap: wrap;
+    font-size: 8px;
+  }
+  .legend {
+    gap: 16px;
+  }
+  .map-footer small {
+    font-size: 8px;
+  }
+}
+.map-experience[data-detail="true"] .map-caption,
+.map[data-detail="true"] .country-labels,
+.map[data-detail="true"] .sea-labels {
+  display: none;
+}
+.map-footer {
+  flex-wrap: wrap;
+}
+.legend {
+  gap: 13px;
+}
+.legend-park,
+.legend-water,
+.legend-landscape {
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+}
+.legend-park {
+  background: #a2bc93;
+}
+.legend-water {
+  background: #91bdcb;
+}
+.legend-landscape {
+  background: #d5bc8d;
+}
+@media (max-width: 600px) {
+  .map-experience {
+    min-height: 780px;
+  }
+  .map-caption {
+    bottom: 92px;
+  }
+  .map-footer {
+    row-gap: 10px;
+  }
+  .legend {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

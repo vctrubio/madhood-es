@@ -1,0 +1,28 @@
+.madrid-point-marker {
+  color: #9b4734;
+  pointer-events: none;
+}
+.madrid-point-marker.station {
+  color: #604565;
+}
+.madrid-marker-halo {
+  fill: #f4f1e9;
+  stroke: currentColor;
+  stroke-width: 1;
+}
+.madrid-marker-symbol {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.madrid-marker-name {
+  fill: currentColor;
+  font-size: 10px;
+  font-weight: 700;
+  paint-order: stroke;
+  stroke: #f4f1e9;
+  stroke-width: 4;
+  stroke-linejoin: round;
+}

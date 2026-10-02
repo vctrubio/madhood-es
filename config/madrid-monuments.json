@@ -1,0 +1,63 @@
+[
+  {
+    "id": "sol",
+    "name": "Puerta del Sol",
+    "label": "Sol",
+    "symbol": "sun",
+    "coordinates": [
+      -3.7038762,
+      40.416863
+    ],
+    "labelOffset": [
+      -19,
+      -4
+    ],
+    "source": "https://www.openstreetmap.org/relation/7424032"
+  },
+  {
+    "id": "colon",
+    "name": "Plaza de Colón",
+    "label": "Plaza de Colón",
+    "symbol": "column",
+    "coordinates": [
+      -3.6905134,
+      40.425348
+    ],
+    "labelOffset": [
+      19,
+      -4
+    ],
+    "source": "https://www.openstreetmap.org/way/699379821"
+  },
+  {
+    "id": "plaza-castilla",
+    "name": "Plaza de Castilla",
+    "label": "Plaza Castilla",
+    "symbol": "towers",
+    "coordinates": [
+      -3.6891922,
+      40.466422
+    ],
+    "labelOffset": [
+      -19,
+      -4
+    ],
+    "source": "https://www.openstreetmap.org/way/511230115"
+  },
+  {
+    "id": "airport",
+    "name": "Aeropuerto Adolfo Suárez Madrid-Barajas",
+    "label": "Madrid-Barajas",
+    "symbol": "airport",
+    "coordinates": [
+      -3.57490741,
+      40.46737643
+    ],
+    "labelOffset": [
+      -19,
+      -4
+    ],
+    "source": "components/map/sources/madrid/base.json#airport",
+    "description": "Marcador del aeropuerto en el acceso por la M-14, conservado del mapa original."
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "slug": "castilla",
+    "name": "Castilla",
+    "activo": true
+  },
+  {
+    "slug": "nueva-espana",
+    "name": "Nueva España",
+    "activo": true
+  },
+  {
+    "slug": "hispanoamerica",
+    "name": "Hispanoamérica",
+    "activo": true
+  },
+  {
+    "slug": "bernabeu",
+    "name": "Bernabéu",
+    "activo": true
+  },
+  {
+    "slug": "el-viso",
+    "name": "El Viso",
+    "activo": true
+  },
+  {
+    "slug": "ciudad-jardin",
+    "name": "Ciudad Jardín",
+    "activo": true
+  },
+  {
+    "slug": "prosperidad",
+    "name": "Prosperidad",
+    "activo": true
+  },
+  {
+    "slug": "castellana",
+    "name": "Castellana",
+    "activo": true
+  },
+  {
+    "slug": "lista",
+    "name": "Lista",
+    "activo": true
+  },
+  {
+    "slug": "guindalera",
+    "name": "Guindalera",
+    "activo": true
+  },
+  {
+    "slug": "recoletos",
+    "name": "Recoletos",
+    "activo": true
+  },
+  {
+    "slug": "goya",
+    "name": "Goya",
+    "activo": true
+  },
+  {
+    "slug": "fuente-del-berro",
+    "name": "Fuente del Berro",
+    "activo": true
+  },
+  {
+    "slug": "cuatro-caminos",
+    "name": "Cuatro Caminos",
+    "activo": true
+  },
+  {
+    "slug": "rios-rosas",
+    "name": "Ríos Rosas",
+    "activo": true
+  },
+  {
+    "slug": "vallehermoso",
+    "name": "Vallehermoso",
+    "activo": true
+  },
+  {
+    "slug": "almagro",
+    "name": "Almagro",
+    "activo": true
+  },
+  {
+    "slug": "trafalgar",
+    "name": "Trafalgar",
+    "activo": true
+  },
+  {
+    "slug": "arapiles",
+    "name": "Arapiles",
+    "activo": true
+  },
+  {
+    "slug": "gaztambide",
+    "name": "Gaztambide",
+    "activo": true
+  },
+  {
+    "slug": "universidad",
+    "name": "Universidad",
+    "activo": true
+  },
+  {
+    "slug": "malasana",
+    "name": "Malasaña",
+    "activo": true
+  },
+  {
+    "slug": "chueca-justicia",
+    "name": "Chueca Justicia",
+    "activo": true
+  },
+  {
+    "slug": "cortes-huertas",
+    "name": "Cortes Huertas",
+    "activo": true
+  },
+  {
+    "slug": "sol",
+    "name": "Sol",
+    "activo": true
+  },
+  {
+    "slug": "lavapies-embajadores",
+    "name": "Lavapiés Embajadores",
+    "activo": true
+  },
+  {
+    "slug": "palacio",
+    "name": "Palacio",
+    "activo": true
+  },
+  {
+    "slug": "jeronimos",
+    "name": "Jerónimos",
+    "activo": true
+  },
+  {
+    "slug": "ibiza",
+    "name": "Ibiza",
+    "activo": true
+  },
+  {
+    "slug": "nino-jesus",
+    "name": "Niño Jesús",
+    "activo": true
+  },
+  {
+    "slug": "aravaca",
+    "name": "Aravaca",
+    "activo": true
+  },
+  {
+    "slug": "la-moraleja",
+    "name": "La Moraleja",
+    "activo": true
+  },
+  {
+    "slug": "imperial",
+    "name": "Imperial",
+    "activo": false
+  },
+  {
+    "slug": "acacias",
+    "name": "Acacias",
+    "activo": false
+  },
+  {
+    "slug": "chopera",
+    "name": "Chopera",
+    "activo": false
+  },
+  {
+    "slug": "legazpi",
+    "name": "Legazpi",
+    "activo": false
+  },
+  {
+    "slug": "delicias",
+    "name": "Delicias",
+    "activo": false
+  },
+  {
+    "slug": "palos-de-la-frontera",
+    "name": "Palos de la Frontera",
+    "activo": false
+  },
+  {
+    "slug": "atocha",
+    "name": "Atocha",
+    "activo": false
+  },
+  {
+    "slug": "pacifico",
+    "name": "Pacífico",
+    "activo": false
+  },
+  {
+    "slug": "adelfas",
+    "name": "Adelfas",
+    "activo": false
+  },
+  {
+    "slug": "estrella",
+    "name": "Estrella",
+    "activo": false
+  },
+  {
+    "slug": "bellas-vistas",
+    "name": "Bellas Vistas",
+    "activo": false
+  },
+  {
+    "slug": "castillejos",
+    "name": "Castillejos",
+    "activo": false
+  },
+  {
+    "slug": "almenara",
+    "name": "Almenara",
+    "activo": false
+  },
+  {
+    "slug": "valdeacederas",
+    "name": "Valdeacederas",
+    "activo": false
+  },
+  {
+    "slug": "berruguete",
+    "name": "Berruguete",
+    "activo": false
+  },
+  {
+    "slug": "arguelles",
+    "name": "Argüelles",
+    "activo": false
+  },
+  {
+    "slug": "sin-barrio",
+    "name": "Sin barrio",
+    "activo": false
+  },
+  {
+    "slug": "soto-de-la-moraleja",
+    "name": "El Soto de la Moraleja",
+    "activo": true
+  },
+  {
+    "slug": "pozuelo-de-alarcon",
+    "name": "Pozuelo de Alarcón",
+    "activo": true
+  }
+]

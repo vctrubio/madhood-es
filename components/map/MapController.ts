@@ -66,6 +66,6 @@ export class MapController {
   }
 
   reset() {
-    this.model.update(INITIAL_STATE);
+    this.model.update(this.model.initialState);
   }
 }

@@ -1,0 +1,117 @@
+{
+  "identity": {
+    "name": "madhood",
+    "descriptor": "MADRID NEIGHBOURHOODS",
+    "home": "Madhood, inicio"
+  },
+  "navigation": [
+    {
+      "label": "Inicio",
+      "href": "/"
+    },
+    {
+      "label": "El proyecto",
+      "href": "/dev"
+    }
+  ],
+  "footer": {
+    "title": "Empieza por un lugar.",
+    "description": "De la península a tu próxima calle.",
+    "links": [
+      {
+        "href": "/iberia",
+        "number": "01",
+        "title": "Iberia",
+        "description": "Explora el mapa",
+        "status": "DISPONIBLE"
+      },
+      {
+        "href": "/",
+        "number": "02",
+        "title": "Madrid",
+        "description": "Explora Madrid",
+        "status": "DISPONIBLE"
+      }
+    ],
+    "note": "Hecho con curiosidad por Madrid.",
+    "dev": "Cuaderno de desarrollo"
+  },
+  "dev": {
+    "eyebrow": "MADHOOD / CUADERNO ABIERTO",
+    "title": "Lo que estamos construyendo.",
+    "description": "Producto, datos y distribución. Un registro de decisiones y próximos pasos para convertir Madhood en una guía útil para comprar, vender, invertir y mudarse a Madrid.",
+    "updated": "REVISIÓN · 2 OCT 2026",
+    "statusTitle": "Dónde estamos",
+    "statuses": [
+      {
+        "title": "Disponible",
+        "text": "Mapa local con 34 áreas activas, calles principales, M-30, M-40 y A-4. Parques, estaciones de Atocha y Chamartín y marcadores de Sol, Colón y Plaza Castilla. Navegación Hood / Iberia."
+      },
+      {
+        "title": "En preparación",
+        "text": "Las líneas ferroviarias son el siguiente paso. Todavía no hay fichas de análisis inmobiliario ni servicio de relocation. Pozuelo es un marcador de localidad; Soto usa un contorno residencial de OpenStreetMap."
+      },
+      {
+        "title": "Sin activar",
+        "text": "No se recogen leads ni se envían eventos de analítica. No hay campañas, pagos ni conexiones a proveedores inmobiliarios."
+      }
+    ],
+    "tracks": [
+      {
+        "id": "product",
+        "title": "Producto y datos",
+        "status": "SIGUIENTE",
+        "goal": "Una ficha de barrio que ayude a tomar una decisión, con evidencia trazable.",
+        "tasks": [
+          "Definir la cobertura inicial y usar límites oficiales; separar barrios administrativos de nombres editoriales.",
+          "Inventariar fuentes, licencias, cobertura y frecuencia de actualización antes de importar datos.",
+          "Distinguir precios de oferta y transacción, alquiler y venta, fecha observada y fecha de publicación.",
+          "Mostrar tamaño de muestra, ausencias y limitaciones; validar cualquier cálculo antes de publicarlo.",
+          "Construir una primera ficha revisable antes de extender el catálogo."
+        ]
+      },
+      {
+        "id": "seo",
+        "title": "SEO y contenido",
+        "status": "PLANIFICADO",
+        "goal": "Responder preguntas concretas sobre vivir y elegir vivienda en Madrid.",
+        "tasks": [
+          "Investigar intenciones de búsqueda en español e inglés y validar una primera selección de temas.",
+          "Crear guías originales con autoría, fuentes, metodología y fecha de revisión; evitar páginas vacías por barrio.",
+          "Tras elegir dominio: configurar URL canónica, sitemap, Search Console y vistas previas sociales.",
+          "Publicar versiones en inglés revisadas y enlazarlas con hreflang cuando existan.",
+          "Medir indexación, búsquedas relevantes y visitas útiles; no prometer posiciones en Google."
+        ]
+      },
+      {
+        "id": "gtm",
+        "title": "GTM · Go to market",
+        "status": "HIPÓTESIS",
+        "goal": "Validar primero la utilidad con personas que preparan una mudanza a Madrid.",
+        "tasks": [
+          "Entrevistar compradores, vendedores, inversores y recién llegados para priorizar una necesidad inicial.",
+          "Probar una primera guía con comunidades internacionales y recoger comentarios con permiso.",
+          "Explorar colaboraciones con profesionales locales; identificar claramente posibles relaciones comerciales.",
+          "Proponer un piloto de orientación para relocation solo cuando estén definidos alcance, responsables y entrega.",
+          "Decidir el modelo comercial después de validar la demanda; aún no hay socios ni servicios contratados."
+        ]
+      },
+      {
+        "id": "measurement",
+        "title": "Medición y aprendizaje",
+        "status": "POR IMPLEMENTAR",
+        "goal": "Medir si las personas encuentran contexto útil, no solo si hacen clic.",
+        "tasks": [
+          "Propuesta de eventos: intent_selected, map_opened, neighbourhood_viewed y guide_read.",
+          "Definir una conversión útil con el primer servicio real; no contar clics como clientes.",
+          "Elegir proveedor y requisitos de consentimiento antes de añadir seguimiento.",
+          "Separar métricas del producto de los datos del mercado inmobiliario.",
+          "Registrar aprendizajes por canal: visitas cualificadas, uso de guías y solicitudes cuando existan."
+        ]
+      }
+    ],
+    "sourceLabel": "Referencia editorial para SEO: Google Search Central",
+    "sourceUrl": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "footnote": "Este cuaderno es público y está marcado noindex. No contiene secretos ni sustituye una herramienta privada de gestión."
+  }
+}

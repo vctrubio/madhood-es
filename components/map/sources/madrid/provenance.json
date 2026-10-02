@@ -1,0 +1,29 @@
+{
+  "original": "Original Madhood map/data/madrid.json; source commit 85093681b868a2e6bae1e8275a8180dfdb03fa5c",
+  "projection": {
+    "west": -3.745,
+    "north": 40.49,
+    "scale": 14000,
+    "latitudeCorrection": 40.43
+  },
+  "roads": {
+    "source": "OpenStreetMap / saved Overpass motorway snapshot",
+    "osmBaseTimestamp": "2026-05-31T22:37:44Z",
+    "segments": {
+      "M-40": 308,
+      "A-4": 47
+    }
+  },
+  "additions": {
+    "retrieved": "2026-10-02",
+    "sources": "OSM API and Nominatim snapshots in this directory; source URLs in config/madrid-*.json",
+    "geometry": "additions.geojson"
+  },
+  "construction": {
+    "reviewedAt": "2026-10-02",
+    "configuration": "config/madrid-construction.json",
+    "geometry": "construction.geojson and clipped OSM A-5 corridor",
+    "accuracy": "Schematic project extents, not official construction or cadastral boundaries; phases differ."
+  },
+  "scope": "Registry controls active coverage. Soto is an OSM residential outline. Pozuelo and La Moraleja are location markers. Retiro is a park, not its district. No rail routes have been added."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "chamartin",
+    "name": "Madrid-Chamartín-Clara Campoamor",
+    "label": "Chamartín",
+    "coordinates": [
+      -3.6822599172592163,
+      40.472057043601126
+    ],
+    "labelOffset": [
+      18,
+      -3
+    ],
+    "source": "Original Madhood map/data/sources/stations.json · OSM via OpenFreeMap snapshot",
+    "sourceDate": "2026-09-25"
+  },
+  {
+    "id": "atocha",
+    "name": "Madrid-Puerta de Atocha-Almudena Grandes",
+    "label": "Atocha",
+    "coordinates": [
+      -3.6900168657302856,
+      40.40568215656276
+    ],
+    "labelOffset": [
+      18,
+      5
+    ],
+    "source": "Original Madhood map/data/sources/stations.json · OSM via OpenFreeMap snapshot",
+    "sourceDate": "2026-09-25"
+  }
+]

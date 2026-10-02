@@ -1,0 +1,13 @@
+[
+  {
+    "id": "retiro",
+    "name": "Parque del Retiro",
+    "label": "EL RETIRO",
+    "geometryId": "retiro",
+    "coordinates": [
+      -3.6832845,
+      40.414946
+    ],
+    "source": "https://www.openstreetmap.org/relation/13616929"
+  }
+]

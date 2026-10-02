@@ -72,7 +72,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
     for index,result in enumerate(executor.map(fetch,sorted(tiles))):
         ways.extend(result)
         if index % 100 == 0: print(f'{index+1}/{len(tiles)} tiles',flush=True)
-motorway_source = ROOT/'map/sources/osm-motorways.json.gz'
+motorway_source = ROOT/'components/map/sources/osm-motorways.json.gz'
 if motorway_source.exists():
     motorway_snapshot = json.loads(gzip.decompress(motorway_source.read_bytes()))
     ways = [way for way in ways if way['tags']['highway'] != 'motorway'] + motorway_snapshot['elements']
@@ -81,7 +81,7 @@ else:
 output={'source':'OpenStreetMap via OpenFreeMap / OpenMapTiles','snapshot':SNAPSHOT,'elements':ways,'osm3s':{'timestamp_osm_base':'2026-09-27 tile release; individual feature update dates unavailable'}}
 if motorway_snapshot:
     output['osm3s'] = motorway_snapshot['osm3s']
-source_dir=ROOT/'map/sources';source_dir.mkdir(exist_ok=True)
+source_dir=ROOT/'components/map/sources';source_dir.mkdir(exist_ok=True)
 (source_dir/'motorways.json.gz').write_bytes(gzip.compress(json.dumps(output,separators=(',',':')).encode(),mtime=0))
 (source_dir/'provenance.json').write_text(json.dumps({'retrieved':time.strftime('%Y-%m-%d'),'tileRelease':SNAPSHOT,'tiles':TEMPLATE,'tileCount':len(tiles),'overviewZoom':9,'urbanDetailZoom':12,'coverage':[-9.6,35.8,3.4,43.9],'urbanDetail':'3 by 3 tiles around each configured city','sources':['https://www.openstreetmap.org/copyright','https://openfreemap.org/','https://openmaptiles.org/'],'licence':'OSM ODbL; OpenMapTiles attribution','classification':'Motorway and trunk overview, plus named primary/secondary/tertiary urban rondas and circunvalaciones. Ramps and construction excluded. Generalized snapshot, not an exhaustive official ring-road inventory.'},indent=2))
 print(f'Saved {len(ways)} road geometries')

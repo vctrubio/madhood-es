@@ -1,17 +1,22 @@
 import type { Metadata } from "next";
+import { MadWordmark } from "@/components/brand/MadWordmark";
+import "./theme.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Madhood — España, ciudad a ciudad",
+  title: "MAD Hood",
   description:
-    "Explora las ciudades de España y las autovías que las conectan en un mapa de la península ibérica.",
+    "Una nueva guía de barrios de Madrid para entender dónde vivir, comprar, vender o invertir. Descubre el proyecto Madhood y explora Iberia.",
 };
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        <MadWordmark />
+        {children}
+      </body>
     </html>
   );
 }

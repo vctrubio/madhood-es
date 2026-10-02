@@ -1,0 +1,25 @@
+{
+  "retrieved": "2026-09-25",
+  "tiles": "https://tiles.openfreemap.org/planet/20260913_164504_pt/{z}/{x}/{y}.pbf",
+  "tileZoom": 13,
+  "streets": "OpenStreetMap via OpenFreeMap / OpenMapTiles",
+  "destinations": "OpenStreetMap via Nominatim",
+  "central": "PropertyKillers: streets.geojson and hoodBoundaries.ts; original projection origin -3.745,40.49, scale 14000*cos(40.43) longitude / 14000 latitude",
+  "transport": {
+    "retrieved": "2026-09-25",
+    "tileZoom": 14,
+    "tiles": "https://tiles.openfreemap.org/planet/20260913_164504_pt/{z}/{x}/{y}.pbf",
+    "stationData": "Named railway/station and railway/subway points; deduplicated by name and mode. No route numbers or live service claims.",
+    "airportAccess": "https://www.aena.es/doc/detalleprensa/230516-mad-obras-regeneracion-pavimento-m14.pdf",
+    "airportMetro": "https://www.aena.es/es/adolfo-suarez-madrid-barajas/como-llegar/metro.html",
+    "airportTrain": "https://www.aena.es/es/adolfo-suarez-madrid-barajas/como-llegar/tren.html"
+  },
+  "parkAndSouth": {
+    "retrieved": "2026-09-25",
+    "park": "https://www.openstreetmap.org/relation/1946885",
+    "parkType": "Forest/park geometry, not the administrative barrio with the same name.",
+    "roads": "https://tiles.openfreemap.org/planet/20260913_164504_pt/{z}/{x}/{y}.pbf",
+    "zoom": 14,
+    "signs": "Authored Spanish-style blue direction signs, illustrative destinations rather than copies of installed road signs."
+  }
+}

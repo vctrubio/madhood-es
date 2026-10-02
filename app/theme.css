@@ -1,0 +1,12 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@theme {
+  --color-paper: #f4f1e9;
+  --color-ink: #252923;
+  --color-map-paper: #e9e4d8;
+  --color-map-line: #c9c5ba;
+  --color-muted: #737469;
+  --color-terracotta: #b95839;
+  --color-selected: #ff9977;
+}

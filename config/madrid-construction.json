@@ -1,0 +1,56 @@
+{
+  "title": "Obras y transformación",
+  "note": "Ámbitos aproximados; las fases no avanzan a la vez.",
+  "projects": [
+    {
+      "id": "madrid-nuevo-norte",
+      "name": "Madrid Nuevo Norte",
+      "label": "Madrid Nuevo Norte",
+      "status": "Desarrollo por fases",
+      "description": "Ámbito previsto del proyecto. Las primeras obras de urbanización de Las Tablas Oeste comenzaron en mayo de 2026; el sombreado no indica que todo el ámbito esté en obras.",
+      "kind": "area",
+      "geometryId": "madrid-nuevo-norte",
+      "coordinates": [
+        -3.679,
+        40.499
+      ],
+      "labelOffset": [
+        16,
+        0
+      ],
+      "reviewedAt": "2026-10-02",
+      "source": "https://creamadridnuevonorte.com/proyecto/",
+      "geometrySource": "https://creamadridnuevonorte.com/app/uploads/2022/05/AF-MNN_Dossier-la-oportunidad_Act2025.pdf",
+      "geometryNote": "Envolvente esquemática basada en la página 41 del dossier de 2025. Incluye infraestructuras ferroviarias; no representa parcelas edificables ni un límite oficial.",
+      "statusSource": "https://creamadridnuevonorte.com/actualidad/"
+    },
+    {
+      "id": "a5-paseo-verde",
+      "name": "A-5 · Paseo Verde del Suroeste",
+      "label": "A-5 · Paseo Verde",
+      "status": "En obras",
+      "description": "Soterramiento y futuro paseo en el corredor del Paseo de Extremadura, entre el entorno de la avenida de Portugal y Padre Piquer / Illescas.",
+      "kind": "corridor",
+      "roadReference": "A-5",
+      "clip": [
+        -3.771,
+        40.389,
+        -3.733,
+        40.414
+      ],
+      "width": 18,
+      "coordinates": [
+        -3.752,
+        40.403
+      ],
+      "labelOffset": [
+        0,
+        -20
+      ],
+      "reviewedAt": "2026-10-02",
+      "source": "https://diario.madrid.es/blog/notas-de-prensa/culmina-la-excavacion-del-tunel-que-soterra-la-a-5-en-los-dos-sentidos-de-circulacion-desde-padre-piquer-hasta-el-paseo-de-extremadura/",
+      "geometrySource": "components/map/sources/osm-motorways.json.gz",
+      "geometryNote": "Corredor aproximado sobre el trazado OSM existente. El ancho amarillo es simbólico; no representa el perímetro de ocupación de las obras."
+    }
+  ]
+}
