@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Los Monegros",
+    "kind": "steppe",
+    "longitude": -0.25,
+    "latitude": 41.62,
+    "description": "Estepa subdesértica. Símbolo de paisaje, no límite territorial.",
+    "source": "https://www.turismodearagon.com/ficha/los-monegros-y-el-valle-del-cinca/"
+  },
+  {
+    "name": "Desierto de Tabernas",
+    "kind": "desert",
+    "longitude": -2.45,
+    "latitude": 37.02,
+    "description": "Paisaje desértico; el área protegida se representa con geometría de OpenStreetMap.",
+    "source": "https://www.juntadeandalucia.es/medioambiente/portal/documents/20151/510930/ES0000047.pdf"
+  },
+  {
+    "name": "Meseta Norte",
+    "kind": "plain",
+    "longitude": -4.8,
+    "latitude": 41.35,
+    "description": "Etiqueta regional orientativa; no representa un límite cartográfico.",
+    "source": "https://www.ign.es/web/resources/docs/IGNCnig/ANE/Capitulos/03_3_Geomorfologia_2020_20230606.pdf"
+  },
+  {
+    "name": "La Mancha",
+    "kind": "plain",
+    "longitude": -2.85,
+    "latitude": 39.35,
+    "description": "Etiqueta regional orientativa de la llanura manchega.",
+    "source": "https://www.ign.es/web/resources/docs/IGNCnig/ANE/Capitulos/03_3_Geomorfologia_2020_20230606.pdf"
+  },
+  {
+    "name": "Valle del Ebro",
+    "kind": "plain",
+    "longitude": -1.25,
+    "latitude": 41.96,
+    "description": "Etiqueta orientativa de paisaje, sin delimitación territorial.",
+    "source": "https://www.ign.es/web/resources/docs/IGNCnig/ANE/Capitulos/03_3_Geomorfologia_2020_20230606.pdf"
+  },
+  {
+    "name": "Valle del Guadalquivir",
+    "kind": "plain",
+    "longitude": -5.35,
+    "latitude": 37.65,
+    "description": "Etiqueta orientativa de la depresión del Guadalquivir.",
+    "source": "https://www.ign.es/web/resources/docs/IGNCnig/ANE/Capitulos/03_3_Geomorfologia_2020_20230606.pdf"
+  },
+  {
+    "name": "Sierra de Gredos",
+    "kind": "mountain",
+    "longitude": -5.25,
+    "latitude": 40.25,
+    "description": "Sierra de Gredos, en el Sistema Central. Símbolo orientativo del macizo; el área verde representa el parque regional.",
+    "source": "https://www.spain.info/es/naturaleza/parque-regional-sierra-gredos/"
+  }
+]

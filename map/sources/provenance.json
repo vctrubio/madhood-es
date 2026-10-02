@@ -1,0 +1,28 @@
+{
+  "retrieved": "2026-10-02",
+  "tileRelease": "20260927_080001_pt",
+  "tiles": "https://tiles.openfreemap.org/planet/20260927_080001_pt/{z}/{x}/{y}.pbf",
+  "tileCount": 790,
+  "overviewZoom": 9,
+  "urbanDetailZoom": 12,
+  "coverage": [
+    -9.6,
+    35.8,
+    3.4,
+    43.9
+  ],
+  "urbanDetail": "3 by 3 tiles around each configured city",
+  "sources": [
+    "https://www.openstreetmap.org/copyright",
+    "https://openfreemap.org/",
+    "https://openmaptiles.org/"
+  ],
+  "licence": "OSM ODbL; OpenMapTiles attribution",
+  "classification": "Motorway and trunk overview, plus named primary/secondary/tertiary urban rondas and circunvalaciones. Ramps and construction excluded. Generalized snapshot, not an exhaustive official ring-road inventory.",
+  "motorways": {
+    "source": "https://overpass.kumi.systems/api/interpreter",
+    "query": "[out:json][timeout:120];way[highway=motorway](35.8,-9.6,43.9,3.4);out tags geom;",
+    "osmBase": "2026-05-31T22:37:44Z",
+    "ways": 59511
+  }
+}

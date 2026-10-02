@@ -1,0 +1,12 @@
+{
+  "tileRelease": "20260927_080001_pt",
+  "layers": [
+    "park",
+    "water",
+    "water_name"
+  ],
+  "zoom": 9,
+  "nationalParkReference": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales-vistazo.html",
+  "limitations": "Generalized OSM park and water polygons. Mainland Spain only. Lake classification includes reservoirs; no current water-level claim. Landscape symbols and labels are illustrative anchors, not boundaries. Regional parks are included alongside natural parks; national parks retain separate styling.",
+  "landscapeSources": "config/landscapes.json"
+}
